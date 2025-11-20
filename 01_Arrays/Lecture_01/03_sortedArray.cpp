@@ -8,7 +8,7 @@ using namespace std;
 //* Solution Code
 bool sortedArray(int arr[], int n) {
   for (int i = 1; i < n; i++) {
-    if (arr[i] > arr[i - 1]) {
+    if (arr[i] >= arr[i - 1]) {
 
     }else {
       return false;
