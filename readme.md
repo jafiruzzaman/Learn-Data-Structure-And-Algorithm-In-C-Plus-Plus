@@ -1,224 +1,294 @@
+# 🚀 DSA Mastery Roadmap (C++ – FAANG Preparation)
 
-# 🚀 **DSA Mastery Roadmap (C++ – FAANG Preparation)**
+This repository documents my complete journey to mastering **Data Structures & Algorithms in C++**, using the best resources, sheets, and patterns required for **FAANG-level** coding interviews.
 
-This repository documents my complete journey to mastering **Data Structures & Algorithms in C++**, following the best resources available, completing top DSA sheets, and preparing for **FAANG-level** coding interviews.
-
-The goal of this repository is to maintain a **clean, structured, and consistent** progress log with high-quality C++ implementations, notes, and problem-solving patterns.
-
----
-
-## 🎯 **Objectives**
-
-* Build strong command over **C++ DSA + STL**
-* Solve **400–500** high-quality DSA problems
-* Complete major DSA sheets (Striver, Love Babbar, Apna College)
-* Master patterns: **Binary Search**, **Two Pointers**, **Sliding Window**, **DP**, **Recursion**, **Graphs**
-* Prepare for **FAANG Online Assessments**, **LLD**, and **HLD**
+The goal is to maintain a **clean, structured, and high-quality** progress log with optimized C++ solutions, patterns, and notes.
 
 ---
 
-# 📘 **Learning Sources & Structure**
+# 🎯 Objectives
 
-This journey follows a hybrid structure using the **best instructors for each topic**:
+- Master **C++ DSA + STL**
+- Solve **450–600 quality DSA problems**
+- Complete top DSA sheets:
+  - Striver SDE Sheet
+  - Love Babbar DSA Sheet
+  - Apna College Sheet
+- Build strong intuition in:
+  - Arrays & Two Pointers
+  - Sliding Window
+  - Binary Search (incl. BS on Answer)
+  - Recursion + Backtracking
+  - Graphs
+  - Trees / BST / AVL
+  - Dynamic Programming
+- Prepare for **FAANG Online Assessments**, **LLD**, and **HLD**
 
 ---
 
-## ✅ **1. Arrays + Binary Search — *Striver (Take U Forward*)**
+# 📚 Learning Structure
+
+I follow a **hybrid approach**, choosing the best instructor per topic.
+
+---
+
+## ✅ 1. Arrays + Binary Search — _Striver (Take U Forward)_
 
 Topics:
 
-* Array basics
-* Prefix / Suffix / Sliding Window
-* Kadanes
-* Two-pointers
-* Sorting-based tricks
-* Binary Search
-* BS on answers (Koko Bananas, Aggressive Cows, Allocate Books, etc.)
-* Rotated sorted array
-* Searching patterns
+- Arrays basics
+- Prefix / Suffix
+- Sliding Window
+- Kadane’s Algorithm
+- Two Pointers
+- Sorting tricks
+- Binary Search
+- **Binary Search on Answers**
+- Rotated array patterns
 
-> Reason: Striver explains array patterns & binary search better than anyone.
-
----
-
-## ✅ **2. Core DSA (Recursion → Trees → AVL) — *Coder Army (163 Videos Series)***
-
-Exact topics covered:
-
-* Recursion + Backtracking
-* Pointers in C++
-* Sorting Algorithms (Basic + Advanced)
-* Strings
-* OOP Concepts
-* Linked List
-* Stack
-* Queue
-* Binary Tree
-* Binary Search Tree
-* **AVL Trees**
-* Hashing
-* Heaps
-* Graphs
-
-> Reason: Coder Army covers DSA in a structured & implementation-heavy way (best for C++ mastery).
+> Best for patterns + interview mastery.
 
 ---
 
-## ✅ **3. Basic Sorting — *Apna College***
+## ✅ 2. Core DSA (Recursion → Trees → Graphs → AVL) — _Coder Army (148 Videos)_
 
 Topics:
 
-* Bubble, Selection, Insertion
-* Merge Sort
-* Quick Sort
-* Counting Sort
-* Time complexity intuition for sorting
+- Recursion & Backtracking
+- Pointers
+- Sorting (All levels)
+- Strings
+- OOP
+- Linked List
+- Stack & Queue
+- Binary Tree
+- BST
+- **AVL Trees**
+- Hashing
+- Heaps
+- Graphs
 
-> Reason: Very clear basics with strong intuition.
-
----
-
-## ✅ **4. Dynamic Programming — *Aditya Verma (DP Playlist)***
-
-DP Topics:
-
-* DP on subsequences
-* DP on grids
-* Unbounded knapsack
-* LCS patterns
-* LIS
-* Partition DP
-* Matrix chain multiplication
-* DP patterns recognized in FAANG interviews
-
-> Reason: AV is the best for **core DP intuition**.
+> Best for implementation-heavy C++ mastery.
 
 ---
 
-## ✅ **5. Problem Sheets I Will Complete**
+## ✅ 3. Basic Sorting — _Take U Forward_
 
-### 📌 **Striver SDE Sheet**
+- Bubble / Selection / Insertion
+- Merge Sort
+- Quick Sort
+- Counting Sort
+- Time complexity intuition
 
-* 180+ curated problems
-* Covers entire DSA + interview patterns
-
-### 📌 **Love Babbar DSA Sheet**
-
-* 450 questions
-* Good for coverage + variety
-
-### 📌 **Apna College DSA Sheet**
-
-* Beginner-friendly + pattern-based
-* Good for consistency
-
-> I will solve problems topic-wise and add all solutions with notes to this repository.
+> Best for fundamentals + intuition.
 
 ---
 
-# 📂 **Repository Structure**
+## ✅ 4. Dynamic Programming — _Aditya Verma_
+
+Covers:
+
+- DP on subsequences
+- LCS family
+- Knapsack
+- Unbounded knapsack
+- Grid DP
+- Partition DP
+- LIS
+- MCM
+- FAANG-level patterns
+
+> Best DP intuition builder.
+
+---
+
+## ✅ 5. Sheets I Will Complete
+
+### 📌 Striver SDE Sheet
+
+- 180+ curated interview problems
+
+### 📌 Love Babbar DSA Sheet
+
+- 450 problems
+
+### 📌 Apna College Sheet
+
+- Beginner + pattern-based progression (375)
+
+Every solution contains:
 
 ```
-📁 DSA
-│── 📁 01_Arrays               ← Striver
-│── 📁 02_Binary_Search        ← Striver
-│── 📁 03_Recursion            ← Coder Army
-│── 📁 04_Pointers             ← Coder Army
-│── 📁 05_Sorting              ← Apna College + Coder Army
-│── 📁 06_Strings              ← Coder Army
-│── 📁 07_OOP                  ← Coder Army
-│── 📁 08_Linked_List          ← Coder Army
-│── 📁 09_Stack                ← Coder Army
-│── 📁 10_Queue                ← Coder Army
-│── 📁 11_Binary_Tree          ← Coder Army
-│── 📁 12_BST                  ← Coder Army
-│── 📁 13_AVL                  ← Coder Army
-│── 📁 14_Heaps                ← Coder Army
-│── 📁 15_Hashing              ← Coder Army
-│── 📁 16_Graphs               ← Coder Army
-│── 📁 17_DP                   ← Aditya Verma
-│── 📁 18_SDE_Sheet            ← Striver
-│── 📁 19_Babbar_Sheet         ← Love Babbar
-│── 📁 20_Apna_College_Sheet   ← Apna College
-│── Notes/                     ← PDF / Markdown notes
+* Problem Link
+* Intuition
+* Approach
+* Edge Cases
+* Time & Space Complexity
+* Multiple Solutions (Brute → Optimal)
+* C++ Code
+
+```
+
+---
+
+# 🧠 Prerequisites (Completed Before Starting DSA)
+
+Before starting Striver Arrays, I completed:
+
+### ✔ 00\_\_CPP_Basics
+
+### ✔ Minimal STL (Only Required Parts)
+
+- vector
+- pair
+- sort()
+- stack / queue
+
+### ✔ Basic Pointers
+
+- - , &
+- pointer to arrays
+- passing pointers to functions
+
+> Full OOP and advanced STL (maps, sets) will be learned later in Coder Army topics.
+
+---
+
+# 📂 Repository Structure
+
+```
+📁 Learn-Data-Structure-And-Algorithm-In-C-Plus-Plus
+│── 📁 00_CPP_Basics
+│── 📁 01_STL
+│── 📁 011_Pointers
+│── 📁 01_Arrays                    ← Striver
+│── 📁 02_Binary_Search             ← Striver
+│── 📁 03_Recursion                 ← Coder Army
+│── 📁 04_Pointers                  ← Coder Army
+│── 📁 05_Sorting                   ← Apna College + Coder Army
+│── 📁 06_Strings                   ← Coder Army
+│── 📁 07_OOP                       ← Coder Army
+│── 📁 08_Linked_List               ← Coder Army
+│── 📁 09_Stack                     ← Coder Army
+│── 📁 10_Queue                     ← Coder Army
+│── 📁 11_Binary_Tree               ← Coder Army
+│── 📁 12_BST                       ← Coder Army
+│── 📁 13_AVL                       ← Coder Army
+│── 📁 14_Heaps                     ← Coder Army
+│── 📁 15_Hashing                   ← Coder Army
+│── 📁 16_Graphs                    ← Coder Army
+│── 📁 17_DP                        ← Aditya Verma
+│── 📁 18_SDE_Sheet                 ← Striver
+│── 📁 19_Babbar_Sheet              ← Love Babbar
+│── 📁 20_Apna_College_Sheet        ← Apna College
+│── 📁 interview                    ← Company-wise DSA preparation
+│      │── 📁 amazon
+│      │── 📁 microsoft
+│      │── 📁 atlassian
+│      │── 📁 uber
+│      │── 📁 google
+│      │── 📁 oracle
+│      │── 📁 postman
+│      │── 📁 figma
+│      │── 📁 notion
+│      │── 📁 walmart
+│      │── 📁 linkedin
+│      │── 📁 adobe
+│      │── 📁 cisco
+│      │── 📁 salesforce
+│      │── 📁 meta
+│
+│── 📁 Notes/                       ← PDF / Markdown notes
 │── README.md
 ```
 
 ---
 
-# 🧠 **What This Repo Contains**
+# 📈 Progress Tracker
 
-### ✔ Clean & optimized C++ solutions
+## **📌 Foundations**
 
-### ✔ Explanation + approach + intuition
-
-### ✔ Time & space complexity
-
-### ✔ Multiple solutions (brute → optimal)
-
-### ✔ Problem links
-
-### ✔ Topic-wise progress
-
-Every problem includes:
-
-```
-- Problem Link  
-- Intuition  
-- Approach  
-- Edge cases  
-- Complexity  
-- Code (C++)
-```
+| Topic                   | Source | Status |
+| ----------------------- | ------ | ------ |
+| C++ Basics              | Self   | ✅     |
+| Time & Space-Complexity | Self   | ✅     |
+| STL (Basic)             | Self   | ✅     |
+| Pointers                | Self   | 🔃     |
 
 ---
 
-# 📈 **Progress Tracker**
+## **📌 Striver**
 
-| Topic               | Source                    | Status |
-| ------------------- | ------------------------- | ------ |
-| Arrays              | Striver                   | ⬜      |
-| Binary Search       | Striver                   | ⬜      |
-| Recursion           | Coder Army                | ⬜      |
-| Pointers            | Coder Army                | ⬜      |
-| Sorting             | Apna College + Coder Army | ⬜      |
-| Strings             | Coder Army                | ⬜      |
-| OOP                 | Coder Army                | ⬜      |
-| Linked List         | Coder Army                | ⬜      |
-| Stack               | Coder Army                | ⬜      |
-| Queue               | Coder Army                | ⬜      |
-| Binary Trees        | Coder Army                | ⬜      |
-| BST                 | Coder Army                | ⬜      |
-| AVL                 | Coder Army                | ⬜      |
-| Heaps               | Coder Army                | ⬜      |
-| Hashing             | Coder Army                | ⬜      |
-| Graphs              | Coder Army                | ⬜      |
-| Dynamic Programming | Aditya Verma              | ⬜      |
-| Striver SDE Sheet   | Striver                   | ⬜      |
-| Love Babbar Sheet   | LB Sheet                  | ⬜      |
-| Apna College Sheet  | Apna College              | ⬜      |
+| Topic         | Source  | Status |
+| ------------- | ------- | ------ |
+| Arrays        | Striver | ⬜     |
+| Binary Search | Striver | ⬜     |
 
 ---
 
-# 🔥 **Final Goal**
+## **📌 Core DSA (Coder Army + Apna College)**
 
-With this roadmap + consistency:
-
-* Master core & advanced DSA
-* Prepare for FAANG Online Assessments
-* Solve 450–600 quality problems
-* Build strong intuition for any new problem
-* Strengthen C++ + STL
-* Build confidence for system design and LLD later
+| Topic        | Source                    | Status |
+| ------------ | ------------------------- | ------ |
+| Recursion    | Coder Army                | ⬜     |
+| Pointers     | Coder Army                | ⬜     |
+| Sorting      | Apna College + Coder Army | ⬜     |
+| Strings      | Coder Army                | ⬜     |
+| OOP          | Coder Army                | ⬜     |
+| Linked List  | Coder Army                | ⬜     |
+| Stack        | Coder Army                | ⬜     |
+| Queue        | Coder Army                | ⬜     |
+| Binary Trees | Coder Army                | ⬜     |
+| BST          | Coder Army                | ⬜     |
+| AVL          | Coder Army                | ⬜     |
+| Heaps        | Coder Army                | ⬜     |
+| Hashing      | Coder Army                | ⬜     |
+| Graphs       | Coder Army                | ⬜     |
 
 ---
 
-# ⭐ **Support**
+## **📌 Advanced**
 
-If you like this structure or want to start your own journey:
+| Topic               | Source       | Status |
+| ------------------- | ------------ | ------ |
+| Dynamic Programming | Aditya Verma | ⬜     |
 
-* ⭐ Star the repo
-* 🍴 Fork it
-* 📝 Use the folder template
+---
+
+## **📌 Sheets**
+
+| Topic              | Source       | Status |
+| ------------------ | ------------ | ------ |
+| Striver SDE Sheet  | Striver      | ⬜     |
+| Love Babbar Sheet  | Love Babbar  | ⬜     |
+| Apna College Sheet | Apna College | ⬜     |
+| Coder Army Sheet   | Coder Army   | ⬜     |
+
+---
+
+If you want this in **one single table (not grouped)** but reorganized, just tell me.
+
+---
+
+# 🔥 Final Goal
+
+By following this roadmap, I aim to:
+
+- Master core + advanced DSA
+- Build strong problem-solving intuition
+- Solve 450–600 high-quality problems
+- Strengthen C++ + STL fundamentals
+- Prepare for **FAANG Online Assessments**
+- Build confidence for LLD & System Design
+
+---
+
+# ⭐ Support
+
+If you like this structure or want to begin your own DSA journey:
+
+- ⭐ Star this repo
+- 🍴 Fork it
+- 📝 Use this folder template
 
 ---
